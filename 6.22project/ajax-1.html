@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ajax-1.css">
+</head>
+<body>
+    <header></header>
+    <section>
+        <div class="shop">
+            <ul class="shop-class" id="shop-class"></ul>
+        </div>
+        <div class="goods" id="goods">
+            <ul class="goods-list" id="goods-list"></ul>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+    <script type="text/javascript" src="js/ajax.js">
+    </script>
+    <script type="text/javascript">
+        var shopClass = document.getElementById("shop-class");
+        $.ajax({
+            "url" : "http://lc.shudong.wang/api_cat.php",
+            "type": "GET",
+            "dataType" : "json",
+            "success" : function (response) {
+                console.log(response);
+                for(var i = 0; i < response.data.length; i++) {
+                    var obj = response.data[i];
+                    var oLi = document.createElement("li");
+                    oLi.style.width = 100/response.data.length+"%";
+                    var oA = document.createElement("a");
+                    oA.href = 'list.html' + obj.cat_name;
+                    oA.innerText = obj.cat_name;
+                    oLi.appendChild(oA);
+                    shopClass.appendChild(oLi);
+                }
+            }
+        });
+        var goodsList = document.getElementById("goods-list");
+        $.ajax({
+            "url" : "http://lc.shudong.wang/api_goods.php",
+            "type": "GET",
+            "dataType": "json",
+            "success": function (response) {
+                console.log(response);
+                for(var i = 0; i < response.data.length; i++){
+                    var obj = response.data[i];
+                    var oLi = document.createElement("li");
+                    var Img = document.createElement("img");
+                    Img.src = obj.goods_thumb;
+                    var oH4 = document.createElement("h4");
+                    oH4.innerText = obj.goods_name;
+                    var oA = document.createElement("a");
+                    oA.innerText = obj.goods_desc;
+                    var oSpan = document.createElement("span");
+                    oSpan.innerText = "￥" + obj.proce;
+                    goodsList.appendChild(Img);
+                }
+            }
+        })
+    </script>
+</html>
