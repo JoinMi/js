@@ -1,14 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>一淘</title>
+    <title>Title</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/unify.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cart.css">
 </head>
 <body>
     <header>
@@ -17,7 +14,7 @@
                 <a href="#">欢迎来到一淘网，阿里巴巴旗下生活省钱利器！</a>
                 <ul>
                     <li id="line">
-                        <a href="#" id="login" class="login">亲！请登录</a>
+                        <a id="login" class="login">亲！请登录</a>
                         <a href="register.html" id="register" class="register">或注册</a>
                     </li>
                     <li><a href="#">我的订单</a></li>
@@ -47,16 +44,16 @@
     </header>
     <section>
         <div  id="goodsList">
-            <ul id="goodsListUl"></ul>
+            <ul ></ul>
         </div>
-        <div class="carousel">
-            <h1>轮播图预留</h1>
-        </div>
-        <div class="standard">
-            <a href="#"></a>
-            <div class="standard-img"><h1>热门商品</h1></div>
-        </div>
-        <div class="goods" id="goods">
+        <div class="standard-img" id="standard-img"><h1>购物车</h1></div>
+        <div id="goods" class="goods">
+            <ul></ul>
+            <div class="But">
+                <button id="upBut">上一页</button>
+                <div id="page" class="page"></div>
+                <button id="downBut">下一页</button>
+            </div>
         </div>
     </section>
     <footer>
@@ -107,7 +104,6 @@
     </footer>
 </body>
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/searchBut.js"></script>
     <script type="text/javascript" src="js/unify.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script>
 </html>

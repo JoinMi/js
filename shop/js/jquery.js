@@ -10238,13 +10238,18 @@ jQuery.noConflict = function( deep ) {
 
 	return jQuery;
 };
-// jQuery.getQueryString = function(name) {
-//         var search = location.search.substr(1);
-//         var reg = new RegExp('(&|^)'+name+'=([^&]*)(&|$)');
-//         var r = search.match(reg);
-//         if (r === null) return null;
-//         return decodeURI(r[2]);
-// };
+jQuery.getQueryString = function(name) {
+        var search = location.search.substr(1);
+        var reg = new RegExp('(&|^)'+name+'=([^&]*)(&|$)');
+        var r = search.match(reg);
+        if (r === null) return null;
+        return decodeURI(r[2]);
+};
+// jQuery.compile = function(templateStr, dictionObj) {
+//         return templateStr.replace(/\{([a-zA-Z0-9_]+)\}/g, function(match, $1) {
+//             return dictionObj[$1];
+//         });
+//     };
 // Expose jQuery and $ identifiers, even in AMD
 // (#7102#comment:10, https://github.com/jquery/jquery/pull/557)
 // and CommonJS for browser emulators (#13566)
