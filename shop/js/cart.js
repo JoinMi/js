@@ -17,7 +17,7 @@ $(function () {
                     " <td class='commodity'><a href='details.html?goods_id=" + obj.goods_id+ "' >" +
                     "<img src='" + obj.goods_thumb + "' alt=''><h1>" + obj.goods_name + "</h1></a></td> " +
                     "<td class='commodity-num'><button class='numLeft'>-</button>" +
-                    "<input type='tel' value='" +obj.goods_number+ "'  class='goodsNmu numNmu" + obj.goods_id + "'>" +
+                    "<input type='tel' value='" +obj.goods_number+ "'  class='goodsNmu'>" +
                     "<button class='numRight'>+</button></td><td class='univalence'>" + obj.goods_price + "元</td> " +
                     "<td class='subtotal'>" +(obj.goods_number*obj.goods_price)+ "元</td> <td class='operation'>" +
                     "<button class='del'>删除</button></td><input type='hidden' value='"+ obj.goods_id +"'></tr>");
@@ -46,17 +46,14 @@ $(function () {
                     }
                 }
             }
-            function Del(goodsId) {
+            function Ajax(goodsId,number) {
                 $.ajax({
                     "url":"http://h6.duchengjiu.top/shop/api_cart.php?token=" + localStorage.getItem("token"),
                     "type":"POST",
                     "dataType":"json",
                     "data":{
                         "goods_id":goodsId,
-                        "number": 0
-                    },
-                    "success":function () {
-
+                        "number": number
                     }
                 });
             }
@@ -72,8 +69,8 @@ $(function () {
                        totalPrice();
                }
                if(target.className == "choiceInput"){
-                   totalPrice();
                    WholeChoice();
+                   totalPrice();
                }
                if(target.className == "numLeft"){
                    var Next =  $(event.target).next();
@@ -83,9 +80,37 @@ $(function () {
                    }
                    Next.val(sum-1);
                    var univalence = $(event.target).parent().next();
+                   var Node = $(event.target).parent().parent().find("input:hidden").val();
+                   console.log(Node);
                    var subtotal = $(event.target).parent().next().next();
                    subtotal.text(parseInt(univalence.text())*parseInt(Next.val())+"元");
                    totalPrice();
+                   Ajax(Node,parseInt(Next.val()));
+               }
+               if(target.className == "goodsNmu"){
+                   console.log("12");
+                   var obj = $(event.target);
+                   obj.blur(function () {
+                       var goodsNmuVal = obj.val();
+                       if(/^[\d]+$/.test(goodsNmuVal)){
+                           if(goodsNmuVal < 1){
+                               console.log(goodsNmuVal);
+                               obj.val("1");
+                           }else if(goodsNmuVal > 10){
+                               obj.val("10");
+                           }
+                       }else{
+                           obj.val("1");
+                       }
+                       console.log("12");
+                       var univalence = obj.parent().next();
+                       var subtotal = obj.parent().next().next();
+                       subtotal.text(parseInt(univalence.text())*parseInt(obj.val())+"元");
+                       var Node = $(event.target).parent().parent().find("input:hidden").val();
+                       console.log(Node);
+                       totalPrice();
+                       Ajax(Node,parseInt(obj.val()));
+                   })
                }
                 if(target.className == "numRight"){
                     var Prev =  $(event.target).prev();
@@ -95,14 +120,17 @@ $(function () {
                     }
                     Prev.val(sum+1);
                     var univalence = $(event.target).parent().next();
+                    var Node = $(event.target).parent().parent().find("input:hidden").val();
+                    console.log(Node);
                     var subtotal = $(event.target).parent().next().next();
                     subtotal.text(parseInt(univalence.text())*parseInt(Prev.val())+"元");
                     totalPrice();
+                    Ajax(Node,parseInt(Prev.val()));
                 }
                 if(target.className == "del"){
                     var goodsId = $(event.target).parent().next().val();
                     console.log(goodsId);
-                    Del(goodsId);
+                    Ajax(goodsId,0);
                     $(event.target).parent().parent().remove();
                 }
             });
@@ -114,7 +142,7 @@ $(function () {
                         var Node = checkedNum[i].parentNode.parentNode;
                         var NodeVal = $(Node).find("input:hidden").val();
                         console.log(NodeVal);
-                        Del(NodeVal);
+                        Ajax(NodeVal,0);
                         $(Node).remove();
                     }
                 }

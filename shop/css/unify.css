@@ -149,6 +149,16 @@ section{
     height:100%;
     color:#ffffff;
 }
+/*.Hot{*/
+    /*display: inline-block;*/
+    /*width: 50px;*/
+    /*height: 30px;*/
+    /*background:url("../image/header/005691e2dba8f7a.jpg");*/
+    /*background-size:100% 100%;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 170px;*/
+/*}*/
 .goods{
     width: 1200px;
     margin:0 auto;
@@ -218,6 +228,7 @@ footer ul li a{
 .shade{
     width:100%;
     height:100%;
+    background:rgba(0,0,0,0.2);
     position: fixed;
     z-index: 10;
     top:0;
@@ -226,7 +237,7 @@ footer ul li a{
 .loginContainer{
     width:450px;
     height: 200px;
-    background: orangered;
+    background: #ff6300;
     position: fixed;
     top:30%;
     left: 36%;

@@ -14,11 +14,11 @@ $(function () {
                 for(var i = 0 ; i < reapense.data.length; i++){
                     var obj = reapense.data[i];
                     if(i < 1){
-                        var Class = "class = goodsfirst";
+                        var Class = "<i class='Hot'></i>";
                     }else {
                         var Class = "";
                     }
-                    goods.append("<li " + Class + "><img src='" + obj.goods_thumb + "' alt=''><h1>" + obj.goods_name + "</h1><span>￥:" + obj.price + "</span><p>"+ obj.goods_desc +"</p><a href='details.html?goods_id=" + obj.goods_id + "'></a></li>")
+                    goods.append("<li>" +Class+ "<img src='" + obj.goods_thumb + "' alt=''><h1>" + obj.goods_name + "</h1><span>￥:" + obj.price + "</span><p>"+ obj.goods_desc +"</p><a href='details.html?goods_id=" + obj.goods_id + "'></a></li>")
                 }
             }
         })
