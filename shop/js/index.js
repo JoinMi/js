@@ -36,4 +36,36 @@ $(function () {
             Ajax(page);
         }
     });
+    var carousel = $("#carousel");
+    var carouselUl = $("#carousel ul");
+    var carouselLi = $("#carousel ul li");
+    var carouselContainer = $(".carouselContainer");
+    console.log(carousel);
+    console.log(carouselUl);
+    console.log(carouselLi);
+    carouselUl.append(carouselLi.eq(0).clone());
+    var index = 0;
+    var timer = setInterval(Left,5000);
+    carousel.mouseenter(function () {
+        clearInterval(timer);
+    });
+    carousel.mouseleave(function () {
+        clearInterval(timer);
+        timer = setInterval(Left,2000);
+    });
+    function Left() {
+        index++;
+        var Color = carouselContainer.css("backgroundColor");
+        if(Color == "rgb(158, 211, 193)"){
+            carouselContainer.css("backgroundColor","rgb(148, 213, 245)");
+        }else if(Color == "rgb(148, 213, 245)"){
+            carouselContainer.css("backgroundColor","rgb(158, 211, 193)");
+        }
+        carouselUl.animate({"left" : -750*index},300,function () {
+            if(index > 1){
+                index = 0;
+                carouselUl.css("left",0);
+            }
+        });
+    }
 });

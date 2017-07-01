@@ -24,6 +24,11 @@
 .commodity{
     width: 300px;
     height: 100px;
+
+}
+.commodity a{
+    display: inline-block;
+    width:300px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

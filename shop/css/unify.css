@@ -115,6 +115,7 @@ nav{
 }
 section{
     width:100%;
+    overflow: hidden;
     position: relative;
 }
 #goodsList{
@@ -276,3 +277,4 @@ footer ul li a{
     color:#fb3434;
     border: none;
 }
+

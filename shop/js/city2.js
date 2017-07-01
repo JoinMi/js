@@ -37,7 +37,7 @@
                          var area_four = $(el).attr('PieceareaID').substr(0, 4);
                          if (city_four == area_four) {
                              var area_id = $(el).attr('PieceareaID');
-                             var area_name = $(el).attr('Piecearea')
+                             var area_name = $(el).attr('Piecearea');
                              $('<option value="' + area_id + '">' + area_name + '</option>').appendTo('#district')
                          }
                      })

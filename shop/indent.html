@@ -17,7 +17,7 @@
                     <a href="#" id="login" class="login">亲！请登录</a>
                     <a href="register.html" id="register" class="register">或注册</a>
                 </li>
-                <li><a href="#">我的订单</a></li>
+                <li><a href="OMS.html">我的订单</a></li>
                 <li><a href="cart.html" id="cart">购物车</a></li>
                 <li><a href="#">消息</a></li>
                 <li><a href="#">我的积分</a></li>
@@ -60,6 +60,14 @@
             </div>
             <div id="Inventory" class="Inventory">
                 <h1>订单详情</h1>
+                <table id="InvenTable">
+                    <tr class="tr-first">
+                        <td class="commodity">商品</td>
+                        <td class="commodity-num">数量</td>
+                        <td class="univalence">单价（元）</td>
+                        <td class="whole">小计（元）</td>
+                    </tr>
+                </table>
             </div>
             <div id="submit" class="submit">
                 <h1>提交订单</h1>
@@ -71,16 +79,16 @@
                 <form>
                     <p id="newReceiving">收货地址：
                         省份：
-                        <select id="province" >
-                            <option value="0" name="province">-请选择-</option>
+                        <select id="province" name="province">
+                            <option value="0" >-请选择-</option>
                         </select>
                         城市：
-                        <select id="city" >
-                            <option value="0" name="city">-请选择-</option>
+                        <select id="city" name="city">
+                            <option value="0" >-请选择-</option>
                         </select>
                         区县：
-                        <select id="district" >
-                            <option value="0" name="district">-请选择-</option>
+                        <select id="district" name="district">
+                            <option value="0" >-请选择-</option>
                         </select>
                     <p>收货人　：
                         <input type="text" name="consignee" id="consignee"><span></span>
