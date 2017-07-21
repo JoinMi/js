@@ -146,7 +146,22 @@ $(function () {
                         $(Node).remove();
                     }
                 }
+            });
+            $("#indent").click(function () {
+                var checkedNum = $(".choiceInput");
+                for(var i = 0; i < checkedNum.length; i++) {
+                    console.log($(".choiceInput").length);
+                    if (checkedNum[i].checked == false) {
+                        var Node = checkedNum[i].parentNode.parentNode;
+                        var NodeVal = $(Node).find("input:hidden").val();
+                        console.log(NodeVal);
+                        Ajax(NodeVal,0);
+                        $(Node).remove();
+                    }
+                }
+                location.href = "indent.html";
             })
         }
-    })
+    });
+
 });

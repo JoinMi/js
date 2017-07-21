@@ -46,7 +46,7 @@ $(function(){
 
     });
     Password.focus(function () {
-        PasswordSpan.html("6-20位之间,数字字母下划线")
+        PasswordSpan.html("6-20位之间,数字字母下划线");
     });
     Password.blur(function () {
         password = Password.val();
@@ -71,6 +71,7 @@ $(function(){
         confirmPass = confirmPassword.val();
         if(confirmPass == ""){
             confirmPasswordSpan.html("请输入确认密码");
+            return;
         }else if(confirmPass == password){
             confirmPasswordSpan.html("重复密码正确");
         }else{
@@ -79,6 +80,48 @@ $(function(){
         }
     });
     $("#registerBut").click(function () {
+        username = Name.val();
+        if(username === ""){
+            NameSpan.html("请输入用户名！");
+            return;
+        }else if(username.length > 20 || username.length < 3){
+            NameSpan.html("用户名错误，规定在3-20位数字字母下划线");
+            return;
+        }else if(reg.test(username)){
+            $.ajax({
+                "url":"http://h6.duchengjiu.top/shop/api_user.php",
+                "type": "POST",
+                "dataType":"json",
+                "data":{
+                    "status": "check",
+                    "username": username
+                },
+                "success":function (response) {
+                    console.log(response);
+                    if(response.code === 0){
+                        NameSpan.html("用户名可用");
+                    }else if(response.code === 2001){
+                        NameSpan.html("用户名已存在");
+                    }
+                }
+            })
+        }else{
+            NameSpan.html("用户名错误，不能使用特殊字符");
+            return;
+        }
+        password = Password.val();
+        if(password === ""){
+            PasswordSpan.html("请输入密码!");
+            return;
+        }else if(password.length > 20 || password.length < 6){
+            PasswordSpan.html("用户密码错误，规定在6-20位之间,数字字母下划线");
+            return;
+        }else if(reg.test(password)){
+            PasswordSpan.html("用户密码正确");
+        }else{
+            PasswordSpan.html("用户密码错误，不能使用特殊字符");
+            return;
+        }
         if(confirmPass == ""){
             confirmPasswordSpan.html("请输入确认密码");
         }else if(confirmPass == password){

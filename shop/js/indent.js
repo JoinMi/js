@@ -164,7 +164,7 @@ $(function () {
                     } else if (/1[3,5,9,7]\d{9}/.test(mobile.val())) {
                         mobile.next().text("");
                     } else {
-                        moblie.next().text("请输入十一位手机号码");
+                        mobile.next().text("请输入十一位手机号码");
                         return;
                     }
                 })

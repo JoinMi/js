@@ -7,10 +7,8 @@
     padding: 50px 0 50px 0;
     margin-bottom: 20px;
 }
-.goodsDetails img{
-    float:left;
-    border:1px solid #ff4411;
-    margin: 10px;
+#purchase{
+    cursor: pointer;
 }
 .goodsDetails h1{
     width: 640px;
@@ -51,4 +49,43 @@
     text-align: center;
     line-height: 50px;
     margin: 30px 30px;
+}
+#ImgContainer{
+    width: 433px;
+    height: 433px;
+    float:left;
+    border:1px solid #ff4411;
+    margin: 10px;
+    position: relative;
+}
+#ImgContainer>img{
+    width: 433px;
+    height: 433px;
+}
+.detailsShade{
+    width: 200px;
+    height: 200px;
+    background:rgba(0,255,0,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.detailBigImg{
+    width:500px;
+    height: 500px;
+    border: 1px solid #757373;
+    position: absolute;
+    top:0;
+    left: 450px;
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+.detailBigImg>img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top:0;
+    left:0;
 }

@@ -78,5 +78,38 @@ $(function () {
             $("#goodsList").removeClass("goodsList");
             $("header").css("padding-bottom",0);
         }
-    }
+    };
+    var sideberGoods = $("#sideberGoods ul");
+    console.log(sideberGoods);
+    $.ajax({
+        "url": "http://h6.duchengjiu.top/shop/api_cart.php",
+        "type":"GET",
+        "dataType":"json",
+        "data":{
+            "token":localStorage.token
+        },
+        "success":function (response) {
+            console.log(response);
+            var html = "";
+            for(var i = 0; i < response.data.length; i++) {
+                var obj = response.data[i];
+                html += "<li><a href='details.html?goods_id=" + obj.goods_id + "'><img src='" + obj.goods_thumb + "' alt=''><h1>"+ obj.goods_name +"</h1><span>"+obj.goods_price+"元</span></a></li>"
+            }
+            sideberGoods.html(html);
+        }
+    });
+    var sideber = $("#sideber");
+    var clickCart = $("#clickCart");
+    var clickTop = $("#clickTop");
+    clickCart.click(function () {
+        if(parseInt(sideber.css("right")) <= -402) {
+            sideber.animate({"right": 0}, 500);
+        }else if(parseInt(sideber.css("right")) >= 0){
+            sideber.animate({"right":-402}, 500);
+        }
+        console.log(sideber.css("right"));
+    });
+    clickTop.click(function () {
+        $("body").animate({"scrollTop":"0px"},500);
+    })
 });

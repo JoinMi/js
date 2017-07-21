@@ -32,6 +32,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    float: left;
 }
 .commodity-num{
     width: 250px;
@@ -49,6 +50,9 @@
     width: 200px;
     height: 100px;
 }
+#shopping{
+    margin:0 auto;
+}
 .commodity img{
     width: 100px;
     height: 100px;
@@ -62,10 +66,55 @@
 }
 .goodsNmu{
     width: 25px;
-    height: 25px;
+    height: 29px;
     text-align: center;
+    color: #ffffff;
+    background:#757373;
+    border:none;
 }
 .numLeft, .numRight{
     width: 29px;
     height: 29px;
+    background:#757373;
+    border:none;
+    color: #ffffff;
+}
+.del{
+    background:#ff4411;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    border:none;
+    cursor: pointer;
+    border:1px solid #fb3434;
+}
+#batch{
+    width: 80px;
+    height: 30px;
+    border:2px solid #ff4411;
+    background:#fb3434;
+    color:#ffffff;
+    cursor: pointer;
+}
+#indent{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border:2px solid #ff4411;
+    background:#fb3434;
+    color:#ffffff;
+    line-height: 30px;
+    text-align: center;
+    float:right;
+    cursor: pointer;
+}
+.batchContainer{
+    width: 1120px;
+    margin: 20px auto;
+}
+#batch:hover , #indent:hover, .del:hover{
+    background: #ffffff;
+    color:#fb3434;
 }

@@ -9,8 +9,9 @@ $(function () {
             console.log(response);
             var obj = response.data[0];
             var goods = $("#goodsDetails");
-            goods.append("<img src='"
-                + obj.goods_thumb + "'><h1>"
+            goods.append("<div id='ImgContainer'><img src='"
+                + obj.goods_thumb + "'><div class='detailsShade' id='deailsShade'></div><div class='detailBigImg' id='deailBigImg'><img src='"
+                + obj.goods_thumb + "'></div></div><h1>"
                 + obj.goods_name +"</h1><b>￥"+ obj.price
                 +" </b><p>" + obj.goods_desc
                 + "</p><div id='goodsNumber' class='goodsNumber'><button class='numLeft' id='numLeft'>-</button><input type='tel' class='goodsNmu' id='goodsNmu' min='1' max='10' value='1'><button class='numRight' id='numRight'>+</button></div><br><a href='#'>立即购买</a><a id='purchase'>加入购物车</a>")
@@ -80,7 +81,8 @@ $(function () {
                         }
                     })
                 }
-            })
+            });
+
         }
     });
 

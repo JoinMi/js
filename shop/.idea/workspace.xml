@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb39e26-16fb-4541-a0b7-42b437159802" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OMS.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/OMS.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/OMS.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/header/005691e2dba8f7a.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/List.html" afterPath="$PROJECT_DIR$/List.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OMS.html" afterPath="$PROJECT_DIR$/OMS.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cart.html" afterPath="$PROJECT_DIR$/cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/List.css" afterPath="$PROJECT_DIR$/css/List.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cart.css" afterPath="$PROJECT_DIR$/css/cart.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/indent.css" afterPath="$PROJECT_DIR$/css/indent.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/details.css" afterPath="$PROJECT_DIR$/css/details.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/search.css" afterPath="$PROJECT_DIR$/css/search.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/unify.css" afterPath="$PROJECT_DIR$/css/unify.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.html" afterPath="$PROJECT_DIR$/details.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indent.html" afterPath="$PROJECT_DIR$/indent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/city2.js" afterPath="$PROJECT_DIR$/js/city2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/List.js" afterPath="$PROJECT_DIR$/js/List.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/cart.js" afterPath="$PROJECT_DIR$/js/cart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/details.js" afterPath="$PROJECT_DIR$/js/details.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indent.js" afterPath="$PROJECT_DIR$/js/indent.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/register.js" afterPath="$PROJECT_DIR$/js/register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/unify.js" afterPath="$PROJECT_DIR$/js/unify.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
     </list>
@@ -41,43 +44,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="details.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/details.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="450">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
+      <file leaf-file-name="cart.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cart.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+            <state relative-caret-position="5850">
+              <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.html">
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+            <state relative-caret-position="1100">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -86,58 +77,70 @@
       <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="3000">
+              <caret line="60" column="114" lean-forward="false" selection-start-line="60" selection-start-column="114" selection-end-line="60" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indent.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/indent.css">
+      <file leaf-file-name="List.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/List.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2515">
-              <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+            <state relative-caret-position="3050">
+              <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indent.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+            <state relative-caret-position="619">
+              <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/indent.js">
+      <file leaf-file-name="unify.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/unify.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="234" column="47" lean-forward="true" selection-start-line="234" selection-start-column="47" selection-end-line="234" selection-end-column="47" />
+            <state relative-caret-position="15850">
+              <caret line="317" column="14" lean-forward="false" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OMS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/OMS.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="5450">
+              <caret line="154" column="7" lean-forward="false" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/unify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5200">
+              <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/shop/scripts/common.js">
+      <file leaf-file-name="List.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/List.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
+            <state relative-caret-position="1450">
+              <caret line="29" column="229" lean-forward="false" selection-start-line="29" selection-start-column="229" selection-end-line="29" selection-end-column="229" />
               <folding />
             </state>
           </provider>
@@ -149,15 +152,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>area</find>
+      <find>bottom</find>
+      <find>.but</find>
+      <find>bottom:0</find>
+      <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n    \&lt;title\&gt;Title\&lt;\/title\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/common\.css\&quot;\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/unify\.css\&quot;\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/OMS\.css\&quot;\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n    \&lt;header\&gt;\n               \&lt;nav\&gt;\n               \&lt;div class\=\&quot;header\-nav\&quot;\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;欢迎来到一淘网\，阿里巴巴旗下生活省钱利器\！\&lt;\/a\&gt;\n               \&lt;ul\&gt;\n               \&lt;li id\=\&quot;line\&quot;\&gt;\n               \&lt;a href\=\&quot;\#\&quot; id\=\&quot;login\&quot; class\=\&quot;login\&quot;\&gt;亲\！请登录\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;register\.html\&quot; id\=\&quot;register\&quot; class\=\&quot;register\&quot;\&gt;或注册\&lt;\/a\&gt;\n               \&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;我的订单\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;cart\.html\&quot; id\=\&quot;cart\&quot;\&gt;购物车\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;消息\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;我的积分\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/nav\&gt;\n               \&lt;div class\=\&quot;header\-top\&quot;\&gt;\n               \&lt;div class\=\&quot;logo\&quot;\&gt;\n               \&lt;a href\=\&quot;index\.html\&quot;\&gt;\n               \&lt;img src\=\&quot;image\/header\/logo\.png\&quot; alt\=\&quot;\&quot; class\=\&quot;logo\&quot;\&gt;\n               \&lt;\/a\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;container\&quot;\&gt;\n               \&lt;input type\=\&quot;text\&quot; id\=\&quot;search\&quot; class\=\&quot;search\&quot;\&gt;\n               \&lt;button id\=\&quot;searchBut\&quot; class\=\&quot;searchBut\&quot;\&gt;\n               \&lt;img src\=\&quot;image\/header\/search\.png\&quot; alt\=\&quot;\&quot;\&gt;\&lt;\/button\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;download\&quot;\&gt;\n               \&lt;div class\=\&quot;qr\-dow\&quot;\&gt;\n               \&lt;img src\=\&quot;image\/header\/qr\.png\&quot; alt\=\&quot;\&quot;\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/header\&gt;\n    \&lt;section\&gt;\n                \&lt;div  id\=\&quot;goodsList\&quot;\&gt;\n                \&lt;ul id\=\&quot;goodsListUl\&quot;\&gt;\&lt;\/ul\&gt;\n                \&lt;\/di\n                \&lt;div class\=\&quot;standard\&quot;\&gt;\n                \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;\/a\&gt;\n                \&lt;div class\=\&quot;standard\-img\&quot;\&gt;\&lt;h1\&gt;订单详情\&lt;\/h1\&gt;\&lt;\/div\&gt;\n                \&lt;\/div\&gt;\n                \&lt;div class\=\&quot;goods\&quot; id\=\&quot;goods\&quot;\&gt;\n                \&lt;\/div\&gt;\n                \&lt;\/section\&gt;\n    \&lt;footer\&gt;\n               \&lt;div class\=\&quot;footer\-container\&quot;\&gt;\n               \&lt;div class\=\&quot;footer\-left\&quot;\&gt;\n               \&lt;ul\&gt;关于我们\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;ul\&gt;帮助中心\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;footer\-canter\&quot;\&gt;\n               \&lt;h1\&gt;手机淘一淘\&lt;\/h1\&gt;\n               \&lt;img src\=\&quot;image\/header\/qr\.png\&quot; alt\=\&quot;\&quot;\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;footer\-right\&quot;\&gt;\n               \&lt;ul\&gt;优惠地图\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;ul\&gt;商家合作\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;\/div\&gt;\n               \&lt;p\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;\/p\&gt;\n               \&lt;h6\&gt;Copyright \© 2010\-2017 ETAO\.COM 版权所有\&lt;\/h6\&gt;\n               \&lt;h6\&gt;增值电信业务经营许可证\：浙B2\-20080224\&lt;\/h6\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/footer\&gt;\n\&lt;\/body\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/jquery\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/unify\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/searchBut\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/OMS\.js\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/html\&gt;</find>
+      <find>\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n    \&lt;title\&gt;Title\&lt;\/title\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/common\.css\&quot;\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/unify\.css\&quot;\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/OMS\.css\&quot;\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n    \&lt;header\&gt;\n               \&lt;nav\&gt;\n               \&lt;div class\=\&quot;header\-nav\&quot;\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;欢迎来到一淘网\，阿里巴巴旗下生活省钱利器\！\&lt;\/a\&gt;\n               \&lt;ul\&gt;\n               \&lt;li id\=\&quot;line\&quot;\&gt;\n               \&lt;a href\=\&quot;\#\&quot; id\=\&quot;login\&quot; class\=\&quot;login\&quot;\&gt;亲\！请登录\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;register\.html\&quot; id\=\&quot;register\&quot; class\=\&quot;register\&quot;\&gt;或注册\&lt;\/a\&gt;\n               \&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;我的订单\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;cart\.html\&quot; id\=\&quot;cart\&quot;\&gt;购物车\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;消息\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;我的积分\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/nav\&gt;\n               \&lt;div class\=\&quot;header\-top\&quot;\&gt;\n               \&lt;div class\=\&quot;logo\&quot;\&gt;\n               \&lt;a href\=\&quot;index\.html\&quot;\&gt;\n               \&lt;img src\=\&quot;image\/header\/logo\.png\&quot; alt\=\&quot;\&quot; class\=\&quot;logo\&quot;\&gt;\n               \&lt;\/a\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;container\&quot;\&gt;\n               \&lt;input type\=\&quot;text\&quot; id\=\&quot;search\&quot; class\=\&quot;search\&quot;\&gt;\n               \&lt;button id\=\&quot;searchBut\&quot; class\=\&quot;searchBut\&quot;\&gt;\n               \&lt;img src\=\&quot;image\/header\/search\.png\&quot; alt\=\&quot;\&quot;\&gt;\&lt;\/button\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;download\&quot;\&gt;\n               \&lt;div class\=\&quot;qr\-dow\&quot;\&gt;\n               \&lt;img src\=\&quot;image\/header\/qr\.png\&quot; alt\=\&quot;\&quot;\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/header\&gt;\n    \&lt;section\&gt;\n                \&lt;div  id\=\&quot;goodsList\&quot;\&gt;\n                \&lt;ul id\=\&quot;goodsListUl\&quot;\&gt;\&lt;\/ul\&gt;\n                \&lt;\/di\n                \&lt;div class\=\&quot;standard\&quot;\&gt;\n                \&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;\/a\&gt;\n                \&lt;div class\=\&quot;standard\-img\&quot;\&gt;\&lt;h1\&gt;订单详情\&lt;\/h1\&gt;\&lt;\/div\&gt;\n                \&lt;\/div\&gt;\n                \&lt;div class\=\&quot;goods\&quot; id\=\&quot;goods\&quot;\&gt;\n                \&lt;\/div\&gt;\n                \&lt;\/section\&gt;\n    \&lt;footer\&gt;\n               \&lt;div class\=\&quot;footer\-container\&quot;\&gt;\n               \&lt;div class\=\&quot;footer\-left\&quot;\&gt;\n               \&lt;ul\&gt;关于我们\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;关于我们\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;ul\&gt;帮助中心\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;帮助中心\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;footer\-canter\&quot;\&gt;\n               \&lt;h1\&gt;手机淘一淘\&lt;\/h1\&gt;\n               \&lt;img src\=\&quot;image\/header\/qr\.png\&quot; alt\=\&quot;\&quot;\&gt;\n               \&lt;\/div\&gt;\n               \&lt;div class\=\&quot;footer\-right\&quot;\&gt;\n               \&lt;ul\&gt;优惠地图\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;优惠地图\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;ul\&gt;商家合作\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;商家合作\&lt;\/a\&gt;\&lt;\/li\&gt;\n               \&lt;\/ul\&gt;\n               \&lt;\/div\&gt;\n               \&lt;p\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;阿里巴巴\&lt;\/a\&gt;\n               \&lt;\/p\&gt;\n               \&lt;h6\&gt;Copyright \© 2010\-2017 ETAO\.COM 版权所有\&lt;\/h6\&gt;\n               \&lt;h6\&gt;增值电信业务经营许可证\：浙B2\-20080224\&lt;\/h6\&gt;\n               \&lt;\/div\&gt;\n               \&lt;\/footer\&gt;\n\&lt;\/body\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/jquery\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/unify\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/searchBut\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script type\=\&quot;text\/javascript\&quot; src\=\&quot;js\/OMS\.js\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/html\&gt;</find>
+      <find>purchase</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -170,38 +182,39 @@
         <option value="$PROJECT_DIR$/js/list.js" />
         <option value="$PROJECT_DIR$/js/jquery.js" />
         <option value="$PROJECT_DIR$/js/Page.js" />
-        <option value="$PROJECT_DIR$/css/List.css" />
         <option value="$PROJECT_DIR$/js/searchBut.js" />
-        <option value="$PROJECT_DIR$/js/List.js" />
-        <option value="$PROJECT_DIR$/css/search.css" />
         <option value="$PROJECT_DIR$/js/search.js" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/css/register.css" />
-        <option value="$PROJECT_DIR$/js/register.js" />
-        <option value="$PROJECT_DIR$/js/unify.js" />
-        <option value="$PROJECT_DIR$/css/details.css" />
-        <option value="$PROJECT_DIR$/js/details.js" />
         <option value="$USER_HOME$/Desktop/area.js" />
-        <option value="$PROJECT_DIR$/js/cart.js" />
         <option value="$PROJECT_DIR$/js/ChinaArea.xml" />
-        <option value="$PROJECT_DIR$/css/unify.css" />
         <option value="$PROJECT_DIR$/css/OMS.css" />
-        <option value="$PROJECT_DIR$/OMS.html" />
-        <option value="$PROJECT_DIR$/cart.html" />
-        <option value="$PROJECT_DIR$/details.html" />
-        <option value="$PROJECT_DIR$/List.html" />
-        <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/indent.html" />
         <option value="$PROJECT_DIR$/js/city2.js" />
-        <option value="$PROJECT_DIR$/css/cart.css" />
         <option value="$PROJECT_DIR$/css/indent.css" />
-        <option value="$PROJECT_DIR$/js/indent.js" />
         <option value="$PROJECT_DIR$/js/OMS.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/indent.js" />
+        <option value="$PROJECT_DIR$/css/List.css" />
+        <option value="$PROJECT_DIR$/js/List.js" />
+        <option value="$PROJECT_DIR$/search.html" />
+        <option value="$PROJECT_DIR$/css/search.css" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/indent.html" />
+        <option value="$PROJECT_DIR$/OMS.html" />
+        <option value="$PROJECT_DIR$/js/register.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/details.html" />
+        <option value="$PROJECT_DIR$/js/details.js" />
+        <option value="$PROJECT_DIR$/css/details.css" />
+        <option value="$PROJECT_DIR$/cart.html" />
+        <option value="$PROJECT_DIR$/js/cart.js" />
+        <option value="$PROJECT_DIR$/01-ajax.js" />
+        <option value="$PROJECT_DIR$/List.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/unify.css" />
+        <option value="$PROJECT_DIR$/js/unify.js" />
+        <option value="$PROJECT_DIR$/css/cart.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
@@ -213,10 +226,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-119" />
-    <option name="y" value="162" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="150" />
+    <option name="y" value="39" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,6 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,8 +291,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,23 +407,31 @@
       <workItem from="1498794600028" duration="48000" />
       <workItem from="1498794662428" duration="34210000" />
       <workItem from="1498871765702" duration="26812000" />
+      <workItem from="1498903509726" duration="2069000" />
+      <workItem from="1498976729428" duration="22013000" />
+      <workItem from="1499044110682" duration="656000" />
+      <workItem from="1499049015525" duration="6319000" />
+      <workItem from="1499066791703" duration="4000" />
+      <workItem from="1499257947208" duration="13279000" />
+      <workItem from="1499305054237" duration="5000" />
+      <workItem from="1499344844317" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158253000" />
+    <option name="totallyTimeSpent" value="203197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-119" y="162" width="1932" height="1056" extended-state="0" />
+    <frame x="150" y="39" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25887266" sideWeight="0.4962963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13465554" sideWeight="0.4962963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12916666" sideWeight="0.5037037" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -421,6 +442,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,18 +476,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/unify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,20 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/List.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1950">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -535,24 +535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -573,47 +559,14 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.242.2763/HZ$D.242.2764/tshi0912-city-picker-65e23b6/gulpfile.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.242.2763/HZ$D.242.2767/tshi0912-city-picker-65e23b6/src/city-picker.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.242.2763/HZ$D.242.2768/tshi0912-city-picker-65e23b6/src/city-picker.data.js" />
-    <entry file="file://$USER_HOME$/Desktop/area.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2469">
-          <caret line="420" column="13" lean-forward="false" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/details.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/unify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/area.js" />
     <entry file="file://$PROJECT_DIR$/js/area.js" />
     <entry file="file://$USER_HOME$/Desktop/省市区/js/citySelect2.js" />
     <entry file="file://$USER_HOME$/Desktop/省市区/js/city2.js" />
     <entry file="file://$USER_HOME$/Desktop/省市区/js/jquery-1.4.4.min.js" />
     <entry file="file://$USER_HOME$/Desktop/省市县/js/common.js" />
-    <entry file="file://$USER_HOME$/Desktop/shop/scripts/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/shop/scripts/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/shop/scripts/ajax.js" />
+    <entry file="file://$USER_HOME$/Desktop/shop/scripts/search.js" />
     <entry file="file://$PROJECT_DIR$/js/ChinaArea.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450">
@@ -622,51 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/unify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OMS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4265">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/OMS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/List.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,23 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,96 +593,180 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/shop/scripts/common.js" />
+    <entry file="file://$PROJECT_DIR$/js/OMS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/indent.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="126" column="1" lean-forward="false" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/indent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2150">
+          <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/List.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="109" column="4" lean-forward="false" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2115">
+          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OMS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="98" column="48" lean-forward="true" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7850">
+          <caret line="157" column="4" lean-forward="false" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="213" column="23" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="83" column="15" lean-forward="false" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4100">
+          <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2950">
+          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="3000">
+          <caret line="60" column="114" lean-forward="false" selection-start-line="60" selection-start-column="114" selection-end-line="60" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-ajax.js" />
+    <entry file="file://$PROJECT_DIR$/css/details.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3050">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="29" column="229" lean-forward="false" selection-start-line="29" selection-start-column="229" selection-end-line="29" selection-end-column="229" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/unify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15850">
+          <caret line="317" column="14" lean-forward="false" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="5850">
+          <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/indent.css">
+    <entry file="file://$PROJECT_DIR$/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2515">
-          <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+        <state relative-caret-position="1100">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/shop/scripts/common.js">
+    <entry file="file://$PROJECT_DIR$/js/unify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/OMS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/indent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="234" column="47" lean-forward="true" selection-start-line="234" selection-start-column="47" selection-end-line="234" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+        <state relative-caret-position="5200">
+          <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="5450">
+          <caret line="154" column="7" lean-forward="false" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="619">
+          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
           <folding />
         </state>
       </provider>

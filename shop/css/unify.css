@@ -1,5 +1,5 @@
-body{
-    /*height: 5000px;*/
+body, html{
+    height:100%;
 }
 header{
     width: 100%;
@@ -150,20 +150,21 @@ section{
     height:100%;
     color:#ffffff;
 }
-/*.Hot{*/
-    /*display: inline-block;*/
-    /*width: 50px;*/
-    /*height: 30px;*/
-    /*background:url("../image/header/005691e2dba8f7a.jpg");*/
-    /*background-size:100% 100%;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top: 170px;*/
-/*}*/
+.Hot{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background:url("../image/header/TB1czH5PXXXXXbNXpXXXXXXXXXX-136-122.png");
+    background-size:100% 100%;
+    position: absolute;
+    left: 10px;
+    top: -4px;
+}
 .goods{
     width: 1200px;
     margin:0 auto;
     overflow: hidden;
+    position: relative;
 }
 footer{
     width:100%;
@@ -277,4 +278,145 @@ footer ul li a{
     color:#fb3434;
     border: none;
 }
+.But{
+    width: 880px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.But button{
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    float:left;
+    border:1px solid #fb3434;
+    background: #ffffff;
+}
+.But button:hover{
+    background:#ff4411;
+    color: #ffffff;
+}
+.page{
+    width: 720px;
+    height: 30px;
+    float: left;
+    overflow: hidden;
+}
+#pageBut{
+    margin:0 auto;
+}
+#sideber{
+    width: 400px;
+    height:100%;
+    border:2px solid #fb3434;
+    position: fixed;
+    top:0;
+    right:-402px;
+    background:#ffffff;
+    z-index: 20;
+}
+.cartBut{
+    width: 30px;
+    height: 64px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto 0;
+    left: -30px;
+    border:2px solid #fb3434;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+}
+.cartBut>span{
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    height: 30px;
+    cursor: pointer;
+}
+.cartBut>span:hover{
+    background:#fb3434;
+}
+.cartBut>span>img{
+    width: 100%;
+    height: 100%;
+}
+#sideber>a{
+    display: block;
+    width:100%;
+    height: 30px;
+    padding:0 10px;
+    box-sizing: border-box;
+    clear-after:left;
+    color: #ffffff;
+    background:#fb3434;
+    line-height: 30px;
+}
+.enterCart{
+    width:100%;
+    height: 60px;
+    border-top:1px solid #fb3434;
+    position: absolute;
+    bottom:0;
+    background:#fb3434;
+}
+.enterCart>h1{
+    float:left;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    padding:0 20px;
+    color: #ffffff;
+}
+.enterCart>a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background:#fb3434;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 10px;
+    float:right;
+    margin:10px 10px;
+}
+.sideberGoods{
+    width:100%;
+    height: 80%;
+    overflow: auto;
+}
+.sideberGoods ul {
 
+}
+.sideberGoods ul li{
+    border:1px solid #fb3434;
+    height: 100px;
+    box-sizing: border-box;
+    margin:5px 5px;
+    padding:0 5px;
+}
+.sideberGoods ul li img{
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    float: left;
+}
+.sideberGoods ul li a {
+    color: #000;
+}
+.sideberGoods ul li h1{
+    float: left;
+    width: 250px;
+    font-size: 20px;
+    margin:5px 0;
+}
+.sideberGoods ul li span{
+    font-size: 20px;
+    float: left;
+    color:red;
+}

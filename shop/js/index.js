@@ -13,7 +13,7 @@ $(function () {
                 var goods = $("#goods ul");
                 for(var i = 0 ; i < reapense.data.length; i++){
                     var obj = reapense.data[i];
-                    if(i < 1){
+                    if(obj.is_hot == 1){
                         var Class = "<i class='Hot'></i>";
                     }else {
                         var Class = "";
@@ -37,12 +37,12 @@ $(function () {
         }
     });
     var carousel = $("#carousel");
-    var carouselUl = $("#carousel ul");
+    var carouselUl = $("#carouselUl");
     var carouselLi = $("#carousel ul li");
     var carouselContainer = $(".carouselContainer");
-    console.log(carousel);
-    console.log(carouselUl);
-    console.log(carouselLi);
+    var circle = $("#circle");
+    var circleLi = $("#circle li");
+    console.log(circleLi);
     carouselUl.append(carouselLi.eq(0).clone());
     var index = 0;
     var timer = setInterval(Left,5000);
@@ -62,9 +62,53 @@ $(function () {
             carouselContainer.css("backgroundColor","rgb(158, 211, 193)");
         }
         carouselUl.animate({"left" : -750*index},300,function () {
-            if(index > 1){
+            if(index >= 2){
                 index = 0;
                 carouselUl.css("left",0);
+            }
+            circleLiCss(index);
+        });
+
+    }
+    circleLi.click(function () {
+        var i = $(this).index();
+        console.log(i);
+        carouselUl.animate({"left" : -750*i},300);
+        circleLiCss(i);
+    });
+    function circleLiCss(i) {
+        circleLi.eq(i).addClass("circleLi").siblings().removeClass("circleLi");
+    }
+    var goodsHotUl = $("#goodsHotUl");
+    var goodsHotUlLi = $("#goodsHotUl li");
+    var leftSpan = $("#leftSpan");
+    var rightSpan = $("#rightSpan");
+    goodsHotUl.append(goodsHotUlLi.eq(0).clone());
+    var index2 = 0;
+    leftSpan.click(function () {
+        index2++;
+        if(index2 > 1) index2 = 0;
+        goodsHotUl.animate({"left":-200*index2},200);
+    });
+    rightSpan.click(function () {
+        index2--;
+        if(index2 < 0) index2 = 1;
+        goodsHotUl.animate({"left":-200*index2},200);
+    });
+    var timer2 = setInterval(goodsHotAnimate,3000);
+    goodsHotUl.mouseenter(function () {
+        clearInterval(timer2);
+    });
+    goodsHotUl.mouseleave(function () {
+        clearInterval(timer2);
+        timer2 = setInterval(goodsHotAnimate,3000);
+    });
+    function goodsHotAnimate() {
+        index2++;
+        goodsHotUl.animate({"left":-200*index2},300,function () {
+            if(index2 >= 2){
+                index2 = 0;
+                goodsHotUl.css("left",0);
             }
         });
     }
