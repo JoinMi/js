@@ -26,7 +26,7 @@ window.onload = function(){
         Details.prototype.previous = function () {
             var retreat = document.querySelector(".retreat");
             retreat.addEventListener("touchstart",function () {
-                window.history.back();
+                window.history.go(-1);
             })
         };
         Details.prototype.addCart = function () {

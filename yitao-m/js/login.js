@@ -11,8 +11,9 @@ window.onload = function () {
                 if(response.code === 0){
                     localStorage.setItem("token",response.data.token) ;
                     localStorage.setItem("username",response.data.username);
-                    window.history.back();location.reload();
+                    window.history.go(-1);
                 }else if(response.code === 2003){
+                    alert("用户不存在或密码错误!");
                     window.location.reload();
                 }
             });

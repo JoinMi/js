@@ -59,7 +59,9 @@ header ul li a {
 }
 .goodsDetails {
   width: 100%;
+  overflow: hidden;
   font-size: 1rem;
+  padding-bottom: 3.125rem;
 }
 .goodsDetails div img {
   width: 100%;
